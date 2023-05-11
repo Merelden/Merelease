@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.news__content {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.wrapper {
+    width: 1700px;
+    margin: 0 auto;
+}
+
+.news__img {
+    width: 100%;
+    height: 300px;
+    transition: 0.8s;
+    display: block;
+}
+.news__img:hover {
+    transform: scale(1.1);
+}
+
+.news__block__img {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.news {
+    padding-block: 100px;
+}
+
+.news__block__title, .news__block_text {
+    padding-top: 10px;
+}

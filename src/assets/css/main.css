@@ -1,0 +1,38 @@
+:root {
+    --xxl: 48px;
+    --xl: 32px;
+    --md: 20px;
+    --sm:16px;
+    --xs: 12px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x:hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.number {
+    color: lightgray;
+    font-size: var(--xl);
+}
+
+.wrapper {
+    width: 1700px;
+    margin: 0 auto;
+}

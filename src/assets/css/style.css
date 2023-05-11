@@ -1,0 +1,158 @@
+header {
+    background-image: url("@/assets/img/header/bg.png");
+    height: 100vh;
+}
+
+a {
+    color: white;
+}
+
+.hero {
+    position: absolute;
+    top: 750px;
+    left: 810px;
+}
+.hero__title {
+    padding-bottom: 10px;
+    color: white;
+    font-size: var(--xl);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+.hero__link {
+    font-size: var(--sm);
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-inline: 50px;
+    position: relative;
+}
+.header__logo {
+    color: white;
+    font-size: var(--xl);
+}
+.header__nav {
+    display: flex;
+    gap: 100px;
+}
+.header__login {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.header__login__text {
+    font-size: var(--xs);
+}
+
+
+
+.about {
+    padding-top: 150px;
+}
+.about__header {
+    display: flex;
+    padding-bottom: 40px;
+    gap: 625px;
+}
+.about__header__title {
+    font-size: var(--xxl);
+}
+.about__header__block {
+    font-size: var(--xl);
+}
+.about__content {
+    display: flex;
+    gap: 400px;
+}
+.about__content__img_small {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.about__content__img_large {
+    height: 558px;
+}
+.about__content__info {
+    width: 400px;
+}
+.about__header__info {
+    white-space: initial;
+}
+
+
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+.numbers__title {
+    font-size: var(--xxl);
+}
+.numbers__info {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 420px 420px;
+    grid-template-rows: 200px 200px;
+    column-gap: 60px;
+}
+.numbers__info__block {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.numbers__info__num {
+    font-size: 64px;
+    padding-top: 15px;
+}
+.numbers__info__text {
+    font-size: var(--md);
+}
+
+
+.partner {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 200px;
+}
+
+.partner__info {
+    display: flex;
+    gap: 60px;
+}
+
+.partner__header__title {
+    font-size: var(--xxl);
+}
+
+.partner__block__title {
+    padding-top: 15px;
+    font-size: var(--md);
+    font-weight: bold;
+}
+.partner__block__subtitle {
+    padding-top: 10px;
+    max-width: 260px;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+.gallery__header__title {
+    font-size: var(--xxl);
+}
+
+.slide {
+
+}

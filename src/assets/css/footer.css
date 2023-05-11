@@ -1,0 +1,37 @@
+footer {
+    background: black;
+    color: white;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer__logo {
+    font-size: var(--xl);
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+}
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+    font-size: var(--sm);
+}
+.footer__title {
+    font-size: var(--md);
+}
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
