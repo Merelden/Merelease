@@ -1,21 +1,21 @@
 <template>
   <Header></Header>
   <main>
-    <!--    <section class="hero">-->
-    <!--      <h5 class="hero__title">-->
-    <!--        LUXURY CAR SALE-->
-    <!--      </h5>-->
-    <!--      <div class="hero__choose">-->
-    <!--        <a href="#" class="hero__link">-->
-    <!--          <a href="#">Choose your sportcar today</a>-->
-    <!--          <svg width="69" height="6" viewBox="0 0 69 6" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--            <path-->
-    <!--                d="M69 2.99999L64 0.113243L64 5.88675L69 2.99999ZM4.37114e-08 3.5L64.5 3.49999L64.5 2.49999L-4.37114e-08 2.5L4.37114e-08 3.5Z"-->
-    <!--                fill="white"/>-->
-    <!--          </svg>-->
-    <!--        </a>-->
-    <!--      </div>-->
-    <!--    </section>-->
+        <section class="hero">
+          <h5 class="hero__title">
+            LUXURY CAR SALE
+          </h5>
+          <div class="hero__choose">
+            <a href="#" class="hero__link">
+              <a href="#">Choose your sportcar today</a>
+              <svg width="69" height="6" viewBox="0 0 69 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M69 2.99999L64 0.113243L64 5.88675L69 2.99999ZM4.37114e-08 3.5L64.5 3.49999L64.5 2.49999L-4.37114e-08 2.5L4.37114e-08 3.5Z"
+                    fill="white"/>
+              </svg>
+            </a>
+          </div>
+        </section>
     <section class="about wrapper">
       <div class="about__header">
         <div class="about__header__block">
@@ -175,6 +175,12 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style scoped>
+  header {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+  }
 
 </style>

@@ -2,17 +2,17 @@
   <header>
     <div class="header__content">
       <h1 class="header__logo">
-        <router-link to="/">MERELEASE</router-link>
+        <router-link to="/" class="header__link">MERELEASE</router-link>
       </h1>
       <nav class="header__nav">
-        <router-link to="/" class="header__nav-item">Home</router-link>
-        <router-link to="/fleet" class="header__nav-item">Our fleet</router-link>
-        <router-link to="/journal" class="header__nav-item">Journal</router-link>
+        <router-link to="/" class="header__nav-item header__link">Home</router-link>
+        <router-link to="/fleet" class="header__nav-item header__link">Our fleet</router-link>
+        <router-link to="/journal" class="header__nav-item header__link">Journal</router-link>
       </nav>
       <div class="header__login">
-        <router-link to="/register" class="header__login__text">Register</router-link>
+        <router-link to="/register" class="header__login__text header__link">Register</router-link>
         <span>/</span>
-        <router-link to="/auth" class="header__login__text">
+        <router-link to="/auth" class="header__login__text header__link">
           Sign In
         </router-link>
       </div>

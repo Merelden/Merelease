@@ -4,16 +4,17 @@
     <h1 class="auth__title">
       Register
     </h1>
-    <div class="auth__content">
-      <div class="auth__content__form">
-        <form action="" method="post" class="form">
+    <div class="registration__content">
+      <div class="registration__content__info">
+        <form action="" method="post" class="registration-content-block">
           <input type="text" placeholder="Name" class="form__field">
           <input type="text" placeholder="Surname" class="form__field">
           <input type="email" placeholder="Email" class="form__field">
-          <input type="number" placeholder="Phone" class="form__field">
           <input type="password" placeholder="Password" class="form__field">
-          <button class="form__btn">Sign In</button>
-          <p class="form__text">Already registered??  <a href="#">Sign In</a></p>
+          <div class="sign__block">
+            <button class="form__btn">Register</button>
+            <p class="form__text">Already registered??  <a href="#">Sign In</a></p>
+          </div>
         </form>
         <img src="@/assets/img/register/car_register.png" alt="car_register">
       </div>
