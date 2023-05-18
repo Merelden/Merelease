@@ -95,5 +95,7 @@ footer {
   padding-top: 200px;
   padding-bottom: 30px;
 }
-
+.footer__text >>> a {
+  color: white;
+}
 </style>

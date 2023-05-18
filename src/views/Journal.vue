@@ -29,5 +29,7 @@ export default {
 </script>
 
 <style scoped>
-
+.header__login >>> a, span {
+  color: black;
+}
 </style>

@@ -36,14 +36,17 @@ export default {
   padding-inline: 50px;
   position: relative;
 }
+
 .header__logo {
   color: black;
   font-size: var(--xl);
 }
+
 .header__nav {
   display: flex;
   gap: 100px;
 }
+
 .header__login {
   display: flex;
   align-items: center;
@@ -53,8 +56,26 @@ export default {
   border-radius: 10px;
   padding: 10px;
 }
+
 .header__login__text {
+  color: white;
   font-size: var(--xs);
 }
+.header__login__text:after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 0;
+  background-color: white;
+  transition: width 0.4s ease-in-out;
+}
 
+.header__login__text:hover:after,
+.header__login__text:focus:after {
+  width: 100%;
+}
+
+.header__login__text:hover {
+  color: white;
+}
 </style>
