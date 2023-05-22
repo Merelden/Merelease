@@ -188,13 +188,14 @@ export default {
     color: white;
   }
   .header__login >>> router-link {
-    color: black;
+    color: white;
   }
   .header__login__text:after {
     display: block;
     content: "";
     height: 1px;
     width: 0;
+    color: white;
     background-color: black;
     transition: width 0.4s ease-in-out;
   }
@@ -205,6 +206,6 @@ export default {
   }
 
   .header__login__text:hover {
-    color: black;
+    color: white;
   }
 </style>

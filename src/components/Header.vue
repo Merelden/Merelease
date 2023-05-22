@@ -58,7 +58,6 @@ export default {
 }
 
 .header__login__text {
-  color: white;
   font-size: var(--xs);
 }
 .header__login__text:after {
@@ -76,6 +75,8 @@ export default {
 }
 
 .header__login__text:hover {
-  color: white;
+}
+.header__login__text {
+  color: black;
 }
 </style>
