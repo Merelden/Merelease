@@ -28,19 +28,19 @@
 <!--      </div>-->
 <!--    </div>-->
   </div>
-  <section class="newsletter">
-    <div class="newsletter__info">
-      <h1 class="newsletter__info-title">Weekly Luxury Newsletter</h1>
-      <p class="newsletter__info-text">
-        Receive the beautifully curated selection of what’s trending in luxury with
-        inside stories and tips from our experts
-      </p>
-    </div>
-    <div class="newsletter__form">
-      <input type="email" placeholder="Email" class="newsletter__field-mail form-field">
-      <input type="submit" value="SUBSCRIBE" class="newsletter__field-btn form-field">
-    </div>
-  </section>
+<!--  <section class="newsletter">-->
+<!--    <div class="newsletter__info">-->
+<!--      <h1 class="newsletter__info-title">Weekly Luxury Newsletter</h1>-->
+<!--      <p class="newsletter__info-text">-->
+<!--        Receive the beautifully curated selection of what’s trending in luxury with-->
+<!--        inside stories and tips from our experts-->
+<!--      </p>-->
+<!--    </div>-->
+<!--    <div class="newsletter__form">-->
+<!--      <input type="email" placeholder="Email" class="newsletter__field-mail form-field">-->
+<!--      <input type="submit" value="SUBSCRIBE" class="newsletter__field-btn form-field">-->
+<!--    </div>-->
+<!--  </section>-->
   <Footer></Footer>
 </template>
 
