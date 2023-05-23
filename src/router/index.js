@@ -4,6 +4,7 @@ import Journal from "@/views/Journal.vue";
 import Fleet from "@/views/Fleet.vue";
 import Auth from "@/views/Auth.vue";
 import Register from "@/views/Register.vue";
+import addProduct from "@/components/AddProduct.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
             path: '/register',
             name: 'register',
             component: Register
+        },
+        {
+            path: '/addProduct',
+            name: 'addProduct',
+            component: addProduct
         }
     ]
 })

@@ -10,8 +10,7 @@
           <img src="@/assets/img/Tesla3Review.png" alt="tesla" class="news__img">
         </div>
         <h4 class="news__block__title">Tesla New Model</h4>
-        <p class="news__block_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta, vitae?
-          Architecto delectus ex inventore minus quae ratione sint voluptatem!</p>
+        <p class="news__block_text">New Tesle Model 2023</p>
       </div>
     </div>
   </section>

@@ -46,7 +46,6 @@ export default {
 
       if(res.ok) {
         localStorage.setItem('user', JSON.stringify(json.userData))
-        alert('заепися пахнет пися');
         this.$router.push('/')
       }
     }

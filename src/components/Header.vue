@@ -16,6 +16,8 @@
           Sign In
         </router-link>
       </div>
+      <router-link to="/AddProduct">Add Product</router-link>
+
     </div>
 
   </header>
