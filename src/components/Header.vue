@@ -12,7 +12,7 @@
       <div class="header__login">
         <router-link to="/register" class="header__login__text header__link">Register</router-link>
         <span>/</span>
-        <router-link to="/auth" class="header__login__text header__link">
+        <router-link to="/authorization" class="header__login__text header__link">
           Sign In
         </router-link>
       </div>

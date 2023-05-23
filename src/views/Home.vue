@@ -1,5 +1,24 @@
 <template>
-  <Header></Header>
+  <header>
+    <div class="header__content">
+      <h1 class="header__logo">
+        <router-link to="/" class="header__link">MERELEASE</router-link>
+      </h1>
+      <nav class="header__nav">
+        <router-link to="/" class="header__nav-item header__link">Home</router-link>
+        <router-link to="/fleet" class="header__nav-item header__link">Our fleet</router-link>
+        <router-link to="/journal" class="header__nav-item header__link">Journal</router-link>
+      </nav>
+      <div class="header__login">
+        <router-link to="/register" class="header__login__text header__link">Register</router-link>
+        <span>/</span>
+        <router-link to="/auth" class="header__login__text header__link">
+          Sign In
+        </router-link>
+      </div>
+    </div>
+
+  </header>
   <main>
         <section class="hero">
           <div class="hero__info">
@@ -54,32 +73,32 @@
       </div>
       <div class="numbers__info">
         <div class="numbers__info__block">
-          <h1 class="numbers__info__num" data-num="5000" id="num1">
-            0
+          <h1 class="numbers__info__num">
+            1650
           </h1>
           <p class="numbers__info__text">
             CARS SOLD
           </p>
         </div>
         <div class="numbers__info__block">
-          <h1 class="numbers__info__num" data-num="341" id="num2">
-            0
+          <h1 class="numbers__info__num">
+            32
           </h1>
           <p class="numbers__info__text">
             NUMBER OF SHOPS
           </p>
         </div>
         <div class="numbers__info__block">
-          <h1 class="numbers__info__num" data-num="1525" id="num3">
-            0
+          <h1 class="numbers__info__num">
+            189
           </h1>
           <p class="numbers__info__text">
             EMPLOYEES
           </p>
         </div>
         <div class="numbers__info__block">
-          <h1 class="numbers__info__num" data-num="1998" id="num4">
-            0
+          <h1 class="numbers__info__num">
+            1998
           </h1>
           <p class="numbers__info__text">
             FOUNDED

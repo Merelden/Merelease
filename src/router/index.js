@@ -24,8 +24,8 @@ const router = createRouter({
             component: Journal
         },
         {
-            path: '/auth',
-            name: 'auth',
+            path: '/authorization',
+            name: 'authorization',
             component: Auth
         },
         {
